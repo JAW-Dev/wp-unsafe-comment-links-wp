@@ -4,7 +4,7 @@ Donate link: http://jawittdesigns.com/donations/
 Tags: comments, spam, links
 Requires at least: 4.5.2
 Tested up to: 4.5.2
-Stable tag: 1.0.1
+Stable tag: 1.0.3
 License: GPL-2.0 or Later
 License URI: http://opensource.org/licenses/gpl-2.0.php GNU Public License
 
