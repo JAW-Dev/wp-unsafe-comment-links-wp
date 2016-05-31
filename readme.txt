@@ -48,10 +48,13 @@ Unless you're comfortable with coding and are familiar with the WordPress filter
 2. After the unsafe link look up
 
 == Changelog ==
-= v1.0.0 2016-05-24 =
+= v1.0.3 2016-05-31 =
+* New Deploy
+
+= v1.0.2 2016-05-24 =
 * Fixed action link for settings
 
-= v1.0.0 2016-05-23 =
+= v1.0.` 2016-05-23 =
 * Removed Multisite
 
 = v1.0.0 2016-05-16 =

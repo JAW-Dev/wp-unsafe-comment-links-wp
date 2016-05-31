@@ -18,7 +18,7 @@ use WP_Unsafe_Comment_Links\Includes as Includes;
  * Plugin Name:       WP Unsafe Comment Links
  * Plugin URI:        https://github.com/jawittdesigns/wp-unsafe-comment-links
  * Description:       Check the links in your WordPress comments for unsafe links using Google Safe Browsing API
- * Version:           1.0.2
+ * Version:           1.0.3
  * Author:            Jason Witt
  * Author URI:        http://jawittdesigns.com
  * License:           GPL-2.0+
@@ -79,7 +79,7 @@ if( !class_exists( 'WPUCL' ) ) {
       }
       // Plugin Version
       if ( !defined( 'WPUCL_VERSION' ) ) {
-        define( 'WPUCL_VERSION', '1.0.2' );
+        define( 'WPUCL_VERSION', '1.0.3' );
       }
       // WPUCL
       if ( !defined( 'WPUCL_PREFIX' ) ) {
