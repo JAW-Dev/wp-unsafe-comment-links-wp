@@ -1,10 +1,10 @@
 === WP Unsafe Comment Links ===
-Contributors: jawittdesings
+Contributors: jawittdesigns
 Donate link: http://jawittdesigns.com/donations/
 Tags: comments, spam, links
 Requires at least: 4.5.2
 Tested up to: 4.5.2
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPL-2.0 or Later
 License URI: http://opensource.org/licenses/gpl-2.0.php GNU Public License
 
@@ -48,6 +48,9 @@ Unless you're comfortable with coding and are familiar with the WordPress filter
 2. After the unsafe link look up
 
 == Changelog ==
+= v1.0.4 2016-06-11 =
+* Fixed Typo
+
 = v1.0.3 2016-05-31 =
 * New Deploy
 

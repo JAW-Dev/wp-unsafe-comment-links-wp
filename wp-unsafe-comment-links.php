@@ -7,18 +7,18 @@ use WP_Unsafe_Comment_Links\Includes as Includes;
 
 /**
  * WP_Unsafe_Comment_Links
- * 
+ *
  * @package     WP Unsafe Comment Links
  * @author      Jason Witt <contact@jawittdesigns.com>
  * @copyright   Copyright (c) The_The_Year, Jason Witt
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
  * @since       1.0.0
- * 
+ *
  * @wordpress-plugin
  * Plugin Name:       WP Unsafe Comment Links
  * Plugin URI:        https://github.com/jawittdesigns/wp-unsafe-comment-links
  * Description:       Check the links in your WordPress comments for unsafe links using Google Safe Browsing API
- * Version:           1.0.3
+ * Version:           1.0.4
  * Author:            Jason Witt
  * Author URI:        http://jawittdesigns.com
  * License:           GPL-2.0+
@@ -34,7 +34,7 @@ if ( !defined( 'WPINC' ) ) { die; }
 
 if( !class_exists( 'WPUCL' ) ) {
   class WPUCL {
-    
+
     /**
      * Instance of the class
      *
@@ -48,7 +48,7 @@ if( !class_exists( 'WPUCL' ) ) {
      *
      * @since 1.0.0
      * @static
-     * @staticvar array 
+     * @staticvar array
      * @return Instance
      */
     public static function instance() {
@@ -79,7 +79,7 @@ if( !class_exists( 'WPUCL' ) ) {
       }
       // Plugin Version
       if ( !defined( 'WPUCL_VERSION' ) ) {
-        define( 'WPUCL_VERSION', '1.0.3' );
+        define( 'WPUCL_VERSION', '1.0.4' );
       }
       // WPUCL
       if ( !defined( 'WPUCL_PREFIX' ) ) {
@@ -194,7 +194,7 @@ if( !class_exists( 'WPUCL' ) ) {
   }
 } // end WPUCL
 /**
- * Return the instance 
+ * Return the instance
  *
  * @since 1.0.0
  * @return object The Safety Links instance
